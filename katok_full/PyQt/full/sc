@@ -1,0 +1,6 @@
+cd C:/Users/duparse/PycharmProjects/katok_full
+ py -3.10 -m venv .venv310
+ .\.venv310\Scripts\Activate.ps1
+  python -m pip install PyQt5
+  python -c "from PyQt5 import QtCore, QtWidgets; print('PyQt5 OK')"
+  python PyQt\full\l1\zxc.py

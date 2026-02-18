@@ -1,0 +1,17 @@
+﻿body { font-family: sans-serif; margin: 0; padding: 0; }
+#header { background-color: #41b883; padding: 10px 20px; color: white; overflow: hidden; }
+#header .logo { font-weight: bold; font-size: 1.2em; float: left; margin-right: 20px; }
+#header .menu { float: left; list-style: none; margin: 0; padding: 0; }
+#header .menu li { display: inline; margin-right: 10px; font-weight: bold; }
+#header .menu li.selected a { color: white; text-decoration: none; }
+#header .menu li a { color: #2c3e50; text-decoration: none; }
+#header .user { float: right; }
+#header a { color: white; }
+#content { padding: 20px; }
+ul.messages { list-style: none; padding: 0; margin: 0; }
+ul.messages li { padding: 10px; margin-bottom: 10px; }
+ul.messages li.success { background-color: #b8e994; color: #009432; }
+ul.messages li.error { background-color: #ffb8b8; color: #b33939; }
+label { float: left; width: 120px; clear: left; }
+input, textarea { margin-bottom: 10px; }
+input[type=submit] { background-color: #41b883; color: white; border: none; padding: 10px 20px; cursor: pointer; }
