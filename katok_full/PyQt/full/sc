@@ -1,11 +1,18 @@
 cd C:/Users/duparse/PycharmProjects/katok_full
 cd ./katok_full
+cd ./katok_full/ggws/Django-3/Django-3/Chapter06/bookmarks
+py --list
  py -3.10 -m venv .venv310
  .\.venv310\Scripts\Activate.ps1
   python -m pip install PyQt5
+  pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org PyQt5
   python -c "from PyQt5 import QtCore, QtWidgets; print('PyQt5 OK')"
   python PyQt\full\l1\zxc.py
-.\venv\Scripts\Activate.ps1
-py -3.10 -m venv venv
+  pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org Django
+  pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org social-auth-app-django
+  pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org django-extensions
+  pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org easy_thumbnails 
+  pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org redis 
 
-  py
+python manage.py migrate
+   py manage.py runserver
