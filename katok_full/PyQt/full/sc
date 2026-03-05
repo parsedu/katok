@@ -6,6 +6,9 @@ py --list
  .\.venv310\Scripts\Activate.ps1
   python -m pip install PyQt5
   pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org PyQt5
+  pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org PyQt5-sip
+
+  pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --force-reinstall PyQt5 PyQt5-sip
   python -c "from PyQt5 import QtCore, QtWidgets; print('PyQt5 OK')"
   python PyQt\full\l1\zxc.py
   pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org Django
